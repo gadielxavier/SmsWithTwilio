@@ -23,8 +23,8 @@ public class TwilioSms extends HttpServlet {
 			 throws ServletException, IOException { 
 		
 		 		// Find your Account Sid and Auth Token at twilio.com/console
-	    		String ACCOUNT_SID = "AC94601d1660f44fce7408d103075bddd8";
-	    		String AUTH_TOKEN = "ba924a4fa256bef38e59d48260062415";
+	    		String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+	    		String AUTH_TOKEN = "your_auth_token";
 	    		
 	    		Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 
